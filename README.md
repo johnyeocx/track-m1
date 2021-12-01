@@ -7,5 +7,5 @@ Track is a three category tracking app for:
 It was implemented in Swift for IOS.
 
 ## Payments
-<img src="/assets/payments1.png" alt="Payments 1 photo"/>
+<img src="/assets/payments1.png" alt="Payments 1 photo" style="height: 300px; width:100px;"/>
 
