@@ -114,14 +114,10 @@ class PaymentViewController: UIViewController, UITextFieldDelegate, UITextViewDe
             UIBarButtonItem.SystemItem.done, target: self, action: #selector(doneClicked))
         let secondDoneButton = UIBarButtonItem(barButtonSystemItem:
         UIBarButtonItem.SystemItem.done, target: self, action: #selector(doneClicked))
-//        let spaceItemRight = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
         let minusToolBar = UIToolbar(frame: CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: 44))
         let minusButton = UIBarButtonItem(title: "-/+", style: .plain, target: self, action: #selector(toggleMinus))
         minusToolBar.items = [minusButton, spaceItemLeft, secondDoneButton]
         toolbar.items = [spaceItemLeft, doneButton]
-        
-        
-        
         
         addText.inputAccessoryView = minusToolBar
         reduceText.inputAccessoryView = toolbar

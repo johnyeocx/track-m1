@@ -447,8 +447,9 @@ class PaymentListViewController: UIViewController, UISearchBarDelegate {
             self.navigationItem.leftBarButtonItem?.tintColor = UIColor.darkGray
         }
         else {
-            let noDataLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 150, height: 21))
+            let noDataLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
             if isHistory {
+                
                 noDataLabel.text = "No History"
             }
             else {
