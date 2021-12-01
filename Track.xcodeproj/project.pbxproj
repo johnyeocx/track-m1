@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB05B70B24D7E5F100DDEB06 /* HistoryPayments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB05B70A24D7E5F000DDEB06 /* HistoryPayments.swift */; };
+		AB05B70F24D7F81700DDEB06 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB05B70E24D7F81700DDEB06 /* FilterViewController.swift */; };
+		AB05B71124D800FD00DDEB06 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB05B71024D800FD00DDEB06 /* FilterTableViewCell.swift */; };
+		AB3E1F7924D90E1000A6CEC3 /* HistoryPasswords.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E1F7824D90E1000A6CEC3 /* HistoryPasswords.swift */; };
+		AB60F35F2476813C008689C6 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60F35E2476813C008689C6 /* PaymentViewController.swift */; };
+		AB60F3622476C218008689C6 /* PaymentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60F3602476C218008689C6 /* PaymentHeaderView.swift */; };
+		AB60F3632476C218008689C6 /* PaymentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB60F3612476C218008689C6 /* PaymentHeaderView.xib */; };
+		AB60F3652477DBAB008689C6 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60F3642477DBAB008689C6 /* TrackViewController.swift */; };
+		AB7287E124D9B9EE001C5253 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7287E024D9B9EE001C5253 /* GroupViewController.swift */; };
+		AB7287E324D9BA0C001C5253 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7287E224D9BA0C001C5253 /* GroupTableViewCell.swift */; };
+		ABC3711C247A7CEF0014E861 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3711B247A7CEF0014E861 /* Friends.swift */; };
+		ABC3711E247A7D060014E861 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3711D247A7D060014E861 /* FriendViewController.swift */; };
+		ABC37120247B82A60014E861 /* PasswordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3711F247B82A60014E861 /* PasswordListViewController.swift */; };
+		ABC37122247B82E40014E861 /* Passwords.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC37121247B82E40014E861 /* Passwords.swift */; };
+		ABC37124247C995F0014E861 /* PasswordInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC37123247C995F0014E861 /* PasswordInputController.swift */; };
+		ABC37126247C9D560014E861 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC37125247C9D560014E861 /* PasswordViewController.swift */; };
+		ABC37128247C9F650014E861 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC37127247C9F650014E861 /* PasswordCell.swift */; };
+		ABC3712A247CBE640014E861 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC37129247CBE630014E861 /* Items.swift */; };
+		ABC3712C247CC0260014E861 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3712B247CC0260014E861 /* ItemCell.swift */; };
+		ABC3712E247CC2320014E861 /* ItemInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3712D247CC2320014E861 /* ItemInputController.swift */; };
+		ABC37130247CC7150014E861 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3712F247CC7150014E861 /* ItemViewController.swift */; };
+		ABC371322494706A0014E861 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC371312494706A0014E861 /* NameView.swift */; };
+		ABC371342494C3B50014E861 /* RadialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC371332494C3B50014E861 /* RadialButton.swift */; };
+		ABC92465247383C70087E11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC92464247383C70087E11C /* AppDelegate.swift */; };
+		ABC92467247383C70087E11C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC92466247383C70087E11C /* SceneDelegate.swift */; };
+		ABC92469247383C70087E11C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC92468247383C70087E11C /* ViewController.swift */; };
+		ABC9246C247383C70087E11C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC9246A247383C70087E11C /* Main.storyboard */; };
+		ABC9246E247383CB0087E11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC9246D247383CB0087E11C /* Assets.xcassets */; };
+		ABC92471247383CB0087E11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC9246F247383CB0087E11C /* LaunchScreen.storyboard */; };
+		ABC92479247387220087E11C /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC92478247387220087E11C /* Track.swift */; };
+		ABC9247D247390300087E11C /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC9247C247390300087E11C /* TrackCell.swift */; };
+		ABC924C42474DF870087E11C /* PaymentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC924C32474DF870087E11C /* PaymentListViewController.swift */; };
+		ABC924C92474E7560087E11C /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC924C82474E7560087E11C /* ItemListViewController.swift */; };
+		ABC924CB2474EA1C0087E11C /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC924CA2474EA1C0087E11C /* UserInputViewController.swift */; };
+		ABC924CD247504E10087E11C /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC924CC247504E10087E11C /* Payments.swift */; };
+		ABC924CF247515680087E11C /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC924CE247515680087E11C /* PaymentCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB05B70A24D7E5F000DDEB06 /* HistoryPayments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPayments.swift; sourceTree = "<group>"; };
+		AB05B70E24D7F81700DDEB06 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		AB05B71024D800FD00DDEB06 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
+		AB3E1F7824D90E1000A6CEC3 /* HistoryPasswords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPasswords.swift; sourceTree = "<group>"; };
+		AB60F35E2476813C008689C6 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		AB60F3602476C218008689C6 /* PaymentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHeaderView.swift; sourceTree = "<group>"; };
+		AB60F3612476C218008689C6 /* PaymentHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentHeaderView.xib; sourceTree = "<group>"; };
+		AB60F3642477DBAB008689C6 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		AB7287E024D9B9EE001C5253 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		AB7287E224D9BA0C001C5253 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		ABC3711B247A7CEF0014E861 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		ABC3711D247A7D060014E861 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		ABC3711F247B82A60014E861 /* PasswordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListViewController.swift; sourceTree = "<group>"; };
+		ABC37121247B82E40014E861 /* Passwords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passwords.swift; sourceTree = "<group>"; };
+		ABC37123247C995F0014E861 /* PasswordInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputController.swift; sourceTree = "<group>"; };
+		ABC37125247C9D560014E861 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		ABC37127247C9F650014E861 /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		ABC37129247CBE630014E861 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		ABC3712B247CC0260014E861 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		ABC3712D247CC2320014E861 /* ItemInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInputController.swift; sourceTree = "<group>"; };
+		ABC3712F247CC7150014E861 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		ABC371312494706A0014E861 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		ABC371332494C3B50014E861 /* RadialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialButton.swift; sourceTree = "<group>"; };
+		ABC92461247383C70087E11C /* Track.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Track.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC92464247383C70087E11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Payments/AppDelegate.swift; sourceTree = "<group>"; };
+		ABC92466247383C70087E11C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABC92468247383C70087E11C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABC9246B247383C70087E11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC9246D247383CB0087E11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABC92470247383CB0087E11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABC92472247383CB0087E11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC92478247387220087E11C /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		ABC9247C247390300087E11C /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		ABC924C32474DF870087E11C /* PaymentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListViewController.swift; sourceTree = "<group>"; };
+		ABC924C82474E7560087E11C /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		ABC924CA2474EA1C0087E11C /* UserInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
+		ABC924CC247504E10087E11C /* Payments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
+		ABC924CE247515680087E11C /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC9245E247383C70087E11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB05B70C24D7E66A00DDEB06 /* Databases */ = {
+			isa = PBXGroup;
+			children = (
+				ABC924CC247504E10087E11C /* Payments.swift */,
+				AB05B70A24D7E5F000DDEB06 /* HistoryPayments.swift */,
+			);
+			path = Databases;
+			sourceTree = "<group>";
+		};
+		AB05B70D24D7E67B00DDEB06 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB05B70E24D7F81700DDEB06 /* FilterViewController.swift */,
+				AB05B71024D800FD00DDEB06 /* FilterTableViewCell.swift */,
+				ABC924C32474DF870087E11C /* PaymentListViewController.swift */,
+				AB60F35E2476813C008689C6 /* PaymentViewController.swift */,
+				ABC924CA2474EA1C0087E11C /* UserInputViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ABBDDC9C24AA468200E8E43D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ABC3711A247A7CE30014E861 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				ABC3711D247A7D060014E861 /* FriendViewController.swift */,
+				ABC3711B247A7CEF0014E861 /* Friends.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		ABC92458247383C70087E11C = {
+			isa = PBXGroup;
+			children = (
+				ABC92463247383C70087E11C /* Track */,
+				ABC92462247383C70087E11C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC92462247383C70087E11C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC92461247383C70087E11C /* Track.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC92463247383C70087E11C /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				ABBDDC9C24AA468200E8E43D /* Fonts */,
+				ABC924C72474E7390087E11C /* Passwords */,
+				ABC924C62474E7310087E11C /* Keys */,
+				ABC924C22474DF640087E11C /* Payments */,
+				ABC92466247383C70087E11C /* SceneDelegate.swift */,
+				ABC92464247383C70087E11C /* AppDelegate.swift */,
+				AB60F3642477DBAB008689C6 /* TrackViewController.swift */,
+				ABC9246A247383C70087E11C /* Main.storyboard */,
+				ABC9246D247383CB0087E11C /* Assets.xcassets */,
+				ABC9246F247383CB0087E11C /* LaunchScreen.storyboard */,
+				ABC92472247383CB0087E11C /* Info.plist */,
+				ABC92468247383C70087E11C /* ViewController.swift */,
+				ABC9247C247390300087E11C /* TrackCell.swift */,
+				ABC92478247387220087E11C /* Track.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		ABC924C22474DF640087E11C /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				AB05B70D24D7E67B00DDEB06 /* ViewControllers */,
+				AB05B70C24D7E66A00DDEB06 /* Databases */,
+				ABC3711A247A7CE30014E861 /* Contact */,
+				ABC924CE247515680087E11C /* PaymentCell.swift */,
+				AB60F3602476C218008689C6 /* PaymentHeaderView.swift */,
+				AB60F3612476C218008689C6 /* PaymentHeaderView.xib */,
+				ABC371312494706A0014E861 /* NameView.swift */,
+				ABC371332494C3B50014E861 /* RadialButton.swift */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		ABC924C62474E7310087E11C /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				ABC924C82474E7560087E11C /* ItemListViewController.swift */,
+				ABC3712F247CC7150014E861 /* ItemViewController.swift */,
+				ABC37129247CBE630014E861 /* Items.swift */,
+				ABC3712B247CC0260014E861 /* ItemCell.swift */,
+				ABC3712D247CC2320014E861 /* ItemInputController.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		ABC924C72474E7390087E11C /* Passwords */ = {
+			isa = PBXGroup;
+			children = (
+				AB7287E224D9BA0C001C5253 /* GroupTableViewCell.swift */,
+				AB7287E024D9B9EE001C5253 /* GroupViewController.swift */,
+				ABC3711F247B82A60014E861 /* PasswordListViewController.swift */,
+				ABC37125247C9D560014E861 /* PasswordViewController.swift */,
+				ABC37123247C995F0014E861 /* PasswordInputController.swift */,
+				ABC37121247B82E40014E861 /* Passwords.swift */,
+				ABC37127247C9F650014E861 /* PasswordCell.swift */,
+				AB3E1F7824D90E1000A6CEC3 /* HistoryPasswords.swift */,
+			);
+			path = Passwords;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC92460247383C70087E11C /* Track */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC92475247383CB0087E11C /* Build configuration list for PBXNativeTarget "Track" */;
+			buildPhases = (
+				ABC9245D247383C70087E11C /* Sources */,
+				ABC9245E247383C70087E11C /* Frameworks */,
+				ABC9245F247383C70087E11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Track;
+			productName = Track;
+			productReference = ABC92461247383C70087E11C /* Track.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC92459247383C70087E11C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Sine;
+				TargetAttributes = {
+					ABC92460247383C70087E11C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = ABC9245C247383C70087E11C /* Build configuration list for PBXProject "Track" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC92458247383C70087E11C;
+			productRefGroup = ABC92462247383C70087E11C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC92460247383C70087E11C /* Track */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC9245F247383C70087E11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB60F3632476C218008689C6 /* PaymentHeaderView.xib in Resources */,
+				ABC92471247383CB0087E11C /* LaunchScreen.storyboard in Resources */,
+				ABC9246E247383CB0087E11C /* Assets.xcassets in Resources */,
+				ABC9246C247383C70087E11C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC9245D247383C70087E11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC37122247B82E40014E861 /* Passwords.swift in Sources */,
+				ABC924CF247515680087E11C /* PaymentCell.swift in Sources */,
+				ABC3711C247A7CEF0014E861 /* Friends.swift in Sources */,
+				AB7287E324D9BA0C001C5253 /* GroupTableViewCell.swift in Sources */,
+				AB05B70B24D7E5F100DDEB06 /* HistoryPayments.swift in Sources */,
+				AB7287E124D9B9EE001C5253 /* GroupViewController.swift in Sources */,
+				ABC37120247B82A60014E861 /* PasswordListViewController.swift in Sources */,
+				AB3E1F7924D90E1000A6CEC3 /* HistoryPasswords.swift in Sources */,
+				ABC3712A247CBE640014E861 /* Items.swift in Sources */,
+				ABC37128247C9F650014E861 /* PasswordCell.swift in Sources */,
+				ABC92469247383C70087E11C /* ViewController.swift in Sources */,
+				ABC37124247C995F0014E861 /* PasswordInputController.swift in Sources */,
+				ABC37126247C9D560014E861 /* PasswordViewController.swift in Sources */,
+				ABC924C92474E7560087E11C /* ItemListViewController.swift in Sources */,
+				ABC92465247383C70087E11C /* AppDelegate.swift in Sources */,
+				AB05B71124D800FD00DDEB06 /* FilterTableViewCell.swift in Sources */,
+				AB60F3622476C218008689C6 /* PaymentHeaderView.swift in Sources */,
+				ABC92467247383C70087E11C /* SceneDelegate.swift in Sources */,
+				AB05B70F24D7F81700DDEB06 /* FilterViewController.swift in Sources */,
+				ABC92479247387220087E11C /* Track.swift in Sources */,
+				ABC3712C247CC0260014E861 /* ItemCell.swift in Sources */,
+				AB60F35F2476813C008689C6 /* PaymentViewController.swift in Sources */,
+				ABC3711E247A7D060014E861 /* FriendViewController.swift in Sources */,
+				ABC371322494706A0014E861 /* NameView.swift in Sources */,
+				ABC371342494C3B50014E861 /* RadialButton.swift in Sources */,
+				ABC37130247CC7150014E861 /* ItemViewController.swift in Sources */,
+				ABC9247D247390300087E11C /* TrackCell.swift in Sources */,
+				AB60F3652477DBAB008689C6 /* TrackViewController.swift in Sources */,
+				ABC924CD247504E10087E11C /* Payments.swift in Sources */,
+				ABC924CB2474EA1C0087E11C /* UserInputViewController.swift in Sources */,
+				ABC3712E247CC2320014E861 /* ItemInputController.swift in Sources */,
+				ABC924C42474DF870087E11C /* PaymentListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABC9246A247383C70087E11C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC9246B247383C70087E11C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABC9246F247383CB0087E11C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC92470247383CB0087E11C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC92473247383CB0087E11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABC92474247383CB0087E11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC92476247383CB0087E11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC27AT556H;
+				INFOPLIST_FILE = Track/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sine.Track;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC92477247383CB0087E11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC27AT556H;
+				INFOPLIST_FILE = Track/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sine.Track;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC9245C247383C70087E11C /* Build configuration list for PBXProject "Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC92473247383CB0087E11C /* Debug */,
+				ABC92474247383CB0087E11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC92475247383CB0087E11C /* Build configuration list for PBXNativeTarget "Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC92476247383CB0087E11C /* Debug */,
+				ABC92477247383CB0087E11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC92459247383C70087E11C /* Project object */;
+}
